@@ -23,20 +23,50 @@
                 <div class="logo">
                     <a href="#">Duong</a>
                 </div>
-
+                <input type="checkbox" id="openMenu" hidden>
                 <ul class="main-menu">
-                    <li class="item"><a href="#">Home</a></li>
-                    <li class="item"><a href="#aboutID">About</a></li>
-                    <li class="item"><a href="#skillID">Skills</a></li>
-                    <li class="item"><a href="#servicesID">Services</a></li>
-                    <li class="item"><a href="#ProductID">Product</a></li>
-                    <li class="item"><a href="#contactID">Contactme</a></li>
-                    <li class="item">
+                    <li class="item"><a href="#">
+                        <span class="material-symbols-outlined">
+                                home
+                        </span>
+                            Home</a></li>
+                    <li class="item"><a href="#aboutID"><span class="material-symbols-outlined">
+                        account_circle
+                        </span>About</a></li>
+                    <li class="item"><a href="#skillID"><span class="material-symbols-outlined">
+                        feed
+                        </span>Skills</a></li>
+                    <li class="item"><a href="#servicesID"><span class="material-symbols-outlined">
+                        home_repair_service
+                        </span>Services</a></li>
+                    <li class="item"><a href="#ProductID"><span class="material-symbols-outlined">
+                        image
+                        </span>Product</a></li>
+                    <li class="item"><a href="#contactID"><span class="material-symbols-outlined">
+                        send
+                        </span>Contactme</a></li>
+                    <li class="item dark">
                         <input type="checkbox" id="bg" hidden>
                         <label for="bg" class="material-symbols-outlined dark click">dark_mode</label>
                         <label for="bg" class="material-symbols-outlined light click">light_mode</label>
                     </li>
+                    <li class="item close">
+                        <label for="openMenu" class="material-symbols-outlined">
+                            close
+                        </label>
+                    </li>
+
                 </ul>
+                <div class="box-mobile">
+                    <input type="checkbox" id="bg" hidden>
+                    <label for="bg" class="material-symbols-outlined dark click">dark_mode</label>
+                    <label for="bg" class="material-symbols-outlined light click">light_mode</label>
+                    <label for="openMenu" class="material-symbols-outlined menu-mobile">
+                        grid_view
+                    </label>
+                </div>
+
+
             </nav>
         </header>
         <div class="pading" style="width: 100%;
@@ -388,14 +418,14 @@
                                 <img src="src/img/product2.png" alt="">
                             </div>
                             <div class="slide-right">
-                              <p class="product-name">Supermarket</p>
-                              <span class="desc-product">Products made in semester 3.</span>
-                              <a class="demo" href="https://duong8888.github.io/asm/" target="_blank">
-                                Demo 
-                                <span class="material-symbols-outlined">
-                                    start
-                                </span>
-                              </a>
+                                <p class="product-name">Supermarket</p>
+                                <span class="desc-product">Products made in semester 3.</span>
+                                <a class="demo" href="https://duong8888.github.io/asm/" target="_blank">
+                                    Demo
+                                    <span class="material-symbols-outlined">
+                                        start
+                                    </span>
+                                </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -403,14 +433,14 @@
                                 <img src="src/img/product1.png" alt="">
                             </div>
                             <div class="slide-right">
-                              <p class="product-name">Food store</p>
-                              <span class="desc-product">Products made in semester 3.</span>
-                              <a class="demo" href="https://duong8888.github.io/Assignment/" target="_blank">
-                                Demo 
-                                <span class="material-symbols-outlined">
-                                    start
-                                </span>
-                              </a>
+                                <p class="product-name">Food store</p>
+                                <span class="desc-product">Products made in semester 3.</span>
+                                <a class="demo" href="https://duong8888.github.io/Assignment/" target="_blank">
+                                    Demo
+                                    <span class="material-symbols-outlined">
+                                        start
+                                    </span>
+                                </a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -418,17 +448,17 @@
                                 <img src="src/img/product3.png" alt="">
                             </div>
                             <div class="slide-right">
-                              <p class="product-name">Shop fake thick</p>
-                              <span class="desc-product">Products made in semester 2.</span>
-                              <a class="demo" href="https://duong8888.github.io/duongnaph23539/" target="_blank">
-                                Demo 
-                                <span class="material-symbols-outlined">
-                                    start
-                                </span>
-                              </a>
+                                <p class="product-name">Shop fake thick</p>
+                                <span class="desc-product">Products made in semester 2.</span>
+                                <a class="demo" href="https://duong8888.github.io/duongnaph23539/" target="_blank">
+                                    Demo
+                                    <span class="material-symbols-outlined">
+                                        start
+                                    </span>
+                                </a>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -491,14 +521,17 @@
             </div>
             <div class="colum">
                 <a href="">Contactme</a>
-                
+
             </div>
             <div class="colum">
                 <i class='bx bxl-meta icon icon-color'></i>
                 <i class='bx bxl-github icon icon-color'></i>
                 <i class='bx bxl-instagram icon icon-color'></i>
             </div>
+            <div class="pading mobile" style="width: 100%;
+        height: 80px;"></div>
         </footer>
+
     </div>
     <div class="sub-footer"></div>
     <div class="overlay"></div>
